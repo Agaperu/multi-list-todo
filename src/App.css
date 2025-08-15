@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+main {
+  padding: 0 20px;
+}
+
+/* Add responsive grid for mobile devices */
+@media (max-width: 768px) {
+  main {
+    padding: 0 10px !important;
+  }
+  
+  .todo-container {
+    padding: 10px !important;
+    max-width: 100% !important;
+  }
+  
+  .todo-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px !important;
+  }
+  
+  .todo-card {
+    padding: 10px !important;
+    min-height: 140px !important;
+    max-width: 100% !important;
+  }
+  
+  .todo-card h3 {
+    font-size: 14px !important;
+    margin-bottom: 10px !important;
+  }
+  
+  .todo-input {
+    padding: 6px 8px !important;
+    font-size: 11px !important;
+  }
+  
+  .todo-button {
+    padding: 6px 10px !important;
+    font-size: 11px !important;
+  }
+  
+  .todo-item {
+    padding: 4px 6px !important;
+    font-size: 11px !important;
+  }
+  
+  .todo-checkbox {
+    width: 12px !important;
+    height: 12px !important;
+  }
+  
+  .todo-delete-item {
+    min-width: 18px !important;
+    height: 18px !important;
+    font-size: 9px !important;
+  }
+  
+  .add-list-container {
+    flex-direction: column !important;
+    gap: 8px !important;
+  }
+  
+  .add-list-input {
+    min-width: auto !important;
+    width: 100% !important;
+  }
+  
+  .add-list-button {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    padding: 0 5px !important;
+  }
+  
+  .todo-container {
+    padding: 5px !important;
+  }
+  
+  .todo-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 6px !important;
+  }
+  
+  .todo-card {
+    padding: 8px !important;
+    min-height: 120px !important;
+  }
+  
+  .todo-card h3 {
+    font-size: 12px !important;
+    margin-bottom: 8px !important;
+  }
+  
+  .todo-input {
+    padding: 4px 6px !important;
+    font-size: 10px !important;
+  }
+  
+  .todo-button {
+    padding: 4px 8px !important;
+    font-size: 10px !important;
+  }
+  
+  .todo-item {
+    padding: 3px 4px !important;
+    font-size: 10px !important;
+  }
+  
+  .todo-checkbox {
+    width: 10px !important;
+    height: 10px !important;
+  }
+  
+  .todo-delete-item {
+    min-width: 16px !important;
+    height: 16px !important;
+    font-size: 8px !important;
+  }
+}
