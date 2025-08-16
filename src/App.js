@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Multi List Todo App</h1>
+        <h1>Todo App</h1>
       </header>
       <main>
         <MultiListTodoApp />
